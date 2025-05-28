@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.linuxtools.tmf.core.analysis">
+      <module
+            analysis_module="org.eclipse.tracecompass.analysis.profiling.core.tests.stubs.CallStackAnalysisStub"
+            id="org.eclipse.tracecompass.profiling.callstack.test"
+            name="Test Callstack">
+         <tracetype
+               class="org.eclipse.tracecompass.tmf.tests.stubs.trace.xml.TmfXmlTraceStub">
+         </tracetype>
+      </module>
+      <module
+            analysis_module="org.eclipse.tracecompass.analysis.profiling.core.tests.stubs2.CallStackAnalysisStub"
+            id="org.eclipse.tracecompass.analysis.profiling.core.tests.stub"
+            name="Test Callstack (new)">
+         <tracetype
+               class="org.eclipse.tracecompass.tmf.tests.stubs.trace.xml.TmfXmlTraceStub">
+         </tracetype>
+      </module>
+      <module
+            analysis_module="org.eclipse.tracecompass.analysis.profiling.core.tests.stubs2.KernelAnalysisModuleStub"
+            id="org.eclipse.tracecompass.analysis.profiling.core.tests.kernelanalysis.stub"
+            name="Test Kernel Analysis">
+         <tracetype
+               class="org.eclipse.tracecompass.tmf.tests.stubs.trace.xml.TmfXmlTraceStub">
+         </tracetype>
+      </module>
+   </extension>
+</plugin>

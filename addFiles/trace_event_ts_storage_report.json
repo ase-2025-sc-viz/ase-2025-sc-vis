@@ -1,0 +1,247 @@
+{
+  "sequential_changes": [
+    {
+      "node_idx": 0,
+      "step_idx": 842,
+      "address": "0x06012c8cf97bead5deae237070f9587f8e7a266d",
+      "key": "0x6",
+      "value": "0x16828",
+      "had_value": "0x16827",
+      "reason": "SSTORE"
+    },
+    {
+      "node_idx": 0,
+      "step_idx": 906,
+      "address": "0x06012c8cf97bead5deae237070f9587f8e7a266d",
+      "key": "0xf652222313e28459528d920b65115c16c04f3efc82aaedc97be59f3f377edd8d",
+      "value": "0x5ad2c318870a5297252f0146524c447318c3194629ce618c674b1d772d2b",
+      "had_value": "0x0",
+      "reason": "SSTORE"
+    },
+    {
+      "node_idx": 0,
+      "step_idx": 929,
+      "address": "0x06012c8cf97bead5deae237070f9587f8e7a266d",
+      "key": "0xf652222313e28459528d920b65115c16c04f3efc82aaedc97be59f3f377edd8e",
+      "value": "0x5a26e7dd",
+      "had_value": "0x0",
+      "reason": "SSTORE"
+    },
+    {
+      "node_idx": 0,
+      "step_idx": 954,
+      "address": "0x06012c8cf97bead5deae237070f9587f8e7a266d",
+      "key": "0xf652222313e28459528d920b65115c16c04f3efc82aaedc97be59f3f377edd8e",
+      "value": "0x5a26e7dd",
+      "had_value": "0x0",
+      "reason": "SSTORE"
+    },
+    {
+      "node_idx": 0,
+      "step_idx": 980,
+      "address": "0x06012c8cf97bead5deae237070f9587f8e7a266d",
+      "key": "0xf652222313e28459528d920b65115c16c04f3efc82aaedc97be59f3f377edd8e",
+      "value": "0x4d020000000000000000000000005a26e7dd",
+      "had_value": "0x5a26e7dd",
+      "reason": "SSTORE"
+    },
+    {
+      "node_idx": 0,
+      "step_idx": 1006,
+      "address": "0x06012c8cf97bead5deae237070f9587f8e7a266d",
+      "key": "0xf652222313e28459528d920b65115c16c04f3efc82aaedc97be59f3f377edd8e",
+      "value": "0xba1500004d020000000000000000000000005a26e7dd",
+      "had_value": "0x4d020000000000000000000000005a26e7dd",
+      "reason": "SSTORE"
+    },
+    {
+      "node_idx": 0,
+      "step_idx": 1032,
+      "address": "0x06012c8cf97bead5deae237070f9587f8e7a266d",
+      "key": "0xf652222313e28459528d920b65115c16c04f3efc82aaedc97be59f3f377edd8e",
+      "value": "0xba1500004d020000000000000000000000005a26e7dd",
+      "had_value": "0x4d020000000000000000000000005a26e7dd",
+      "reason": "SSTORE"
+    },
+    {
+      "node_idx": 0,
+      "step_idx": 1058,
+      "address": "0x06012c8cf97bead5deae237070f9587f8e7a266d",
+      "key": "0xf652222313e28459528d920b65115c16c04f3efc82aaedc97be59f3f377edd8e",
+      "value": "0x6000000000000ba1500004d020000000000000000000000005a26e7dd",
+      "had_value": "0xba1500004d020000000000000000000000005a26e7dd",
+      "reason": "SSTORE"
+    },
+    {
+      "node_idx": 0,
+      "step_idx": 1088,
+      "address": "0x06012c8cf97bead5deae237070f9587f8e7a266d",
+      "key": "0xf652222313e28459528d920b65115c16c04f3efc82aaedc97be59f3f377edd8e",
+      "value": "0xc0006000000000000ba1500004d020000000000000000000000005a26e7dd",
+      "had_value": "0x6000000000000ba1500004d020000000000000000000000005a26e7dd",
+      "reason": "SSTORE"
+    },
+    {
+      "node_idx": 0,
+      "step_idx": 1200,
+      "address": "0x06012c8cf97bead5deae237070f9587f8e7a266d",
+      "key": "0x9c358e33433ec73db14066456230b28a56fb0090e57ef47868f5eb5364c4a69a",
+      "value": "0xd",
+      "had_value": "0xc",
+      "reason": "SSTORE"
+    },
+    {
+      "node_idx": 0,
+      "step_idx": 1223,
+      "address": "0x06012c8cf97bead5deae237070f9587f8e7a266d",
+      "key": "0x67cc09b606995bad0e2a109e45be7d97e263c33d994b73f5f6574871a43bb8f6",
+      "value": "0x8783d710344df1e8888b0218ec282f9a80edd070",
+      "had_value": "0x0",
+      "reason": "SSTORE"
+    },
+    {
+      "node_idx": 0,
+      "step_idx": 1297,
+      "address": "0x06012c8cf97bead5deae237070f9587f8e7a266d",
+      "key": "0xf652222313e28459528d920b65115c16c04f3efc82aaedc97be59f3f377ca744",
+      "value": "0xb00090000000000004a9600003e220000000000476d99000000005a208e64",
+      "had_value": "0xb00090000ba1500004a9600003e220000000000476d99000000005a208e64",
+      "reason": "SSTORE"
+    },
+    {
+      "node_idx": 0,
+      "step_idx": 1305,
+      "address": "0x06012c8cf97bead5deae237070f9587f8e7a266d",
+      "key": "0xf",
+      "value": "0x1353",
+      "had_value": "0x1354",
+      "reason": "SSTORE"
+    }
+  ],
+  "addresses": {
+    "0x06012c8cf97bead5deae237070f9587f8e7a266d": {
+      "name": "Unknown_0x06012c8cf97bead5deae237070f9587f8e7a266d",
+      "total_changes": 13,
+      "unique_keys": [
+        "0xf652222313e28459528d920b65115c16c04f3efc82aaedc97be59f3f377edd8e",
+        "0x6",
+        "0xf652222313e28459528d920b65115c16c04f3efc82aaedc97be59f3f377ca744",
+        "0x9c358e33433ec73db14066456230b28a56fb0090e57ef47868f5eb5364c4a69a",
+        "0x67cc09b606995bad0e2a109e45be7d97e263c33d994b73f5f6574871a43bb8f6",
+        "0xf652222313e28459528d920b65115c16c04f3efc82aaedc97be59f3f377edd8d",
+        "0xf"
+      ],
+      "new_values": 0,
+      "modified_values": 13
+    }
+  },
+  "changes_by_address": {
+    "0x06012c8cf97bead5deae237070f9587f8e7a266d": {
+      "0x6": [
+        {
+          "node_idx": 0,
+          "step_idx": 842,
+          "value": "0x16828",
+          "had_value": "0x16827",
+          "reason": "SSTORE"
+        }
+      ],
+      "0xf652222313e28459528d920b65115c16c04f3efc82aaedc97be59f3f377edd8d": [
+        {
+          "node_idx": 0,
+          "step_idx": 906,
+          "value": "0x5ad2c318870a5297252f0146524c447318c3194629ce618c674b1d772d2b",
+          "had_value": "0x0",
+          "reason": "SSTORE"
+        }
+      ],
+      "0xf652222313e28459528d920b65115c16c04f3efc82aaedc97be59f3f377edd8e": [
+        {
+          "node_idx": 0,
+          "step_idx": 929,
+          "value": "0x5a26e7dd",
+          "had_value": "0x0",
+          "reason": "SSTORE"
+        },
+        {
+          "node_idx": 0,
+          "step_idx": 954,
+          "value": "0x5a26e7dd",
+          "had_value": "0x0",
+          "reason": "SSTORE"
+        },
+        {
+          "node_idx": 0,
+          "step_idx": 980,
+          "value": "0x4d020000000000000000000000005a26e7dd",
+          "had_value": "0x5a26e7dd",
+          "reason": "SSTORE"
+        },
+        {
+          "node_idx": 0,
+          "step_idx": 1006,
+          "value": "0xba1500004d020000000000000000000000005a26e7dd",
+          "had_value": "0x4d020000000000000000000000005a26e7dd",
+          "reason": "SSTORE"
+        },
+        {
+          "node_idx": 0,
+          "step_idx": 1032,
+          "value": "0xba1500004d020000000000000000000000005a26e7dd",
+          "had_value": "0x4d020000000000000000000000005a26e7dd",
+          "reason": "SSTORE"
+        },
+        {
+          "node_idx": 0,
+          "step_idx": 1058,
+          "value": "0x6000000000000ba1500004d020000000000000000000000005a26e7dd",
+          "had_value": "0xba1500004d020000000000000000000000005a26e7dd",
+          "reason": "SSTORE"
+        },
+        {
+          "node_idx": 0,
+          "step_idx": 1088,
+          "value": "0xc0006000000000000ba1500004d020000000000000000000000005a26e7dd",
+          "had_value": "0x6000000000000ba1500004d020000000000000000000000005a26e7dd",
+          "reason": "SSTORE"
+        }
+      ],
+      "0x9c358e33433ec73db14066456230b28a56fb0090e57ef47868f5eb5364c4a69a": [
+        {
+          "node_idx": 0,
+          "step_idx": 1200,
+          "value": "0xd",
+          "had_value": "0xc",
+          "reason": "SSTORE"
+        }
+      ],
+      "0x67cc09b606995bad0e2a109e45be7d97e263c33d994b73f5f6574871a43bb8f6": [
+        {
+          "node_idx": 0,
+          "step_idx": 1223,
+          "value": "0x8783d710344df1e8888b0218ec282f9a80edd070",
+          "had_value": "0x0",
+          "reason": "SSTORE"
+        }
+      ],
+      "0xf652222313e28459528d920b65115c16c04f3efc82aaedc97be59f3f377ca744": [
+        {
+          "node_idx": 0,
+          "step_idx": 1297,
+          "value": "0xb00090000000000004a9600003e220000000000476d99000000005a208e64",
+          "had_value": "0xb00090000ba1500004a9600003e220000000000476d99000000005a208e64",
+          "reason": "SSTORE"
+        }
+      ],
+      "0xf": [
+        {
+          "node_idx": 0,
+          "step_idx": 1305,
+          "value": "0x1353",
+          "had_value": "0x1354",
+          "reason": "SSTORE"
+        }
+      ]
+    }
+  }
+}

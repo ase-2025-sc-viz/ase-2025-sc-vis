@@ -1,0 +1,13 @@
+# LC_COLLATE=C sort
+*/.settings/org.sonar.ide.eclipse.core.prefs
+.DS_Store
+.polyglot.build.properties
+.tycho-consumer-pom.xml
+jsonify.py
+bin/
+target/
+workspace/
+
+# VS Code
+.devcontainer
+.vscode

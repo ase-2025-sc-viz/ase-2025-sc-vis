@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.tracecompass.testing"
+      label="%featureName"
+      version="10.3.0.qualifier"
+      provider-name="%featureProvider"
+      license-feature="org.eclipse.license"
+      license-feature-version="0.0.0">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.tracecompass.analysis.counters.core.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.analysis.counters.ui.swtbot.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.analysis.graph.core.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.analysis.lami.core.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.analysis.os.linux.core.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.analysis.os.linux.ui.swtbot.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.analysis.os.linux.ui.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.analysis.profiling.core.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.analysis.timing.core.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.analysis.timing.ui.swtbot.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.btf.core.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.common.core.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.ctf.core.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.ctf.parser.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.datastore.core.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.gdbtrace.core.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.gdbtrace.ui.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.integration.swtbot.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.lttng2.common.core.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.lttng2.control.core.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.lttng2.control.ui.swtbot.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.lttng2.control.ui.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.lttng2.kernel.core.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.lttng2.kernel.ui.swtbot.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.lttng2.ust.core.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.lttng2.ust.ui.swtbot.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.lttng2.ust.ui.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.pcap.core.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.segmentstore.core.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.statesystem.core.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.tmf.analysis.xml.core.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.tmf.analysis.xml.ui.swtbot.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.tmf.analysis.xml.ui.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.tmf.chart.core.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.tmf.chart.ui.swtbot.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.tmf.chart.ui.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.tmf.cli.core.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.tmf.core.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.tmf.ctf.core.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.tmf.ctf.ui.swtbot.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.tmf.pcap.core.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.tmf.pcap.ui.swtbot.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.tmf.remote.core.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.tmf.remote.ui.swtbot.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.tmf.remote.ui.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.tmf.ui.swtbot.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.tmf.ui.tests"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.slf4j.binding.simple.properties"
+         version="0.0.0"/>
+</feature>
