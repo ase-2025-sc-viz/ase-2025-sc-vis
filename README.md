@@ -8,7 +8,7 @@
   6. to_trace_event_with_timestamps.py is inserting the timestamps
 
 
-# ContractViz+ — User & Build Guide
+# TxSight — User & Build Guide
 
 ## 1. Using the Prebuilt Version (Release)
 
@@ -76,15 +76,15 @@ This command:
 * Compiles the project
 * Skips tests to speed up the process
 
-## Run the Compiled ContractViz+
+## Run the Compiled TxSight
 
-After a successful build, you can run ContractViz+ using the following command:
+After a successful build, you can run TxSight using the following command:
 
 ```bash
 ./rcp/org.eclipse.tracecompass.rcp.product/target/products/org.eclipse.tracecompass.rcp/linux/gtk/x86_64/trace-compass/tracecompass
 ```
 
- 🔧 Once ContractViz+ is launched, make sure to enable the **Trace Event Parser** plugin by going to **Tools > Add-ons** and checking **Trace Event Parser**.
+ 🔧 Once TxSight is launched, make sure to enable the **Trace Event Parser** plugin by going to **Tools > Add-ons** and checking **Trace Event Parser**.
 
 ### Notes:
 
