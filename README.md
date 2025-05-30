@@ -1,82 +1,70 @@
-## Here are the steps to prepare the data 
-Given cryptokitty transaction as the example
-1. for the rpc call use "trace_transaction" as the method
-2. get the colorful txt result of the trace using foundry tool
-3. use the uploaded "substitute_types.py" to substitute the function call method with the actual function names
-4. attach_money_flows.py is attaching the money flow result generate by money_flow_analyzer.py
-5. to_trace_event.py is converting the result to the trace event format
-6. to_trace_event_with_timestamps.py is inserting the timestamps
+  ## Here are the steps to prepare the data 
+  Given cryptokitty transaction as the example
+  1. for the rpc call use "trace_transaction" as the method
+  2. get the colorful txt result of the trace using foundry tool
+  3. use the uploaded "substitute_types.py" to substitute the function call method with the actual function names
+  4. attach_money_flows.py is attaching the money flow result generate by money_flow_analyzer.py
+  5. to_trace_event.py is converting the result to the trace event format
+  6. to_trace_event_with_timestamps.py is inserting the timestamps
 
 
+# ContractViz+ — User & Build Guide
 
+## 1. Using the Prebuilt Version (Release)
 
-# ContractViz + Setup
+### Prerequisites
 
-## How to Launch the Software
-You can either use the prebuilt executable or compile the software before running it.
+- Linux system (x86_64) : tested on Ubuntu 24.04.2 LTS x86_64 with Linux kernel 6.11.0-26-generic and Fedora Linux 42 KDE Plasma Desktop Edition with Linux kernel 6.14.0-63 x86_64 
+- GTK libraries (required for SWT-based applications)
 
-To run Trace Compass on Linux, use the following command:
+### Launching the Application
 
-```bash
-./tracecompass
-```
-### Notes:
+1. Ensure the executable file (e.g., `./tracecompass`) is present in the root directory.
+2. If it's not executable, make it so:
 
-* Ensure the file is executable. If not, you can make it executable with:
+    ```bash
+    chmod +x ./tracecompass
+    ```
 
-  ```bash
-  chmod +x ./tracecompass
-  ```
+3. Then launch the application:
 
-## Installing the Trace Event Parser Plugin
+    ```bash
+    ./tracecompass
+    ```
+
+### Enabling the Trace Event Parser Plugin
 
 Once the application is running:
 
-1. Go to the top menu.
-2. Navigate to `Tools` > `Add-ons`.
-3. Add the `Trace Event Parser` plugin from the list.
+- Go to **Tools > Add-ons**.
+- Check the box for **Trace Event Parser** to enable the plugin.
 
-## Adding the Gas Usage View
-
-To add the gas usage analysis view:
+### Adding the Gas Usage Analysis View
 
 1. In the **Project Explorer**, right-click on `Traces`.
-2. Select `Manage XML Analyses`.
-3. In the window that appears, click the `Import` button.
-4. Select the file `gas_cost_per_function.xml` located in the `addFiles` directory.
+2. Select **Manage XML Analyses**.
+3. In the dialog, click **Import** and choose `gas_cost_per_function.xml` located in the `addFiles` directory.
 
-## Opening a Trace
+### Opening a Trace
 
-1. Open the trace file named `???.json` from the `addFiles` directory.
-2. Ensure that the corresponding `???_storage_report.json` file is also present in the `addFiles` directory. It is needed for the state changes.
-
-These two files must be in the addFiles directory for the analysis to work properly.
+- Open the trace file `???.json` from the `addFiles` folder.
+- Ensure that the corresponding `???_storage_report.json` file is also present, as it's required for analyzing state changes.
 
 ---
 
+## 2. Building the Project from Source
 
+### Prerequisites
 
+- Java JDK 21 : tested with openjdk 21.0.7 2025-04-15
+- Maven 3.9+ : tested with Apache Maven 3.9.9
+- Git
+- Linux system (x86_64) : tested on Ubuntu 24.04.2 LTS x86_64 with Linux kernel 6.11.0-26-generic
+- GTK libraries
 
+### Building without Running Tests
 
-
-   
-# ContractViz + - Build and Run Instructions
-
-You can also build ContractViz +.
-
-## Prerequisites
-
-Before you begin, make sure you have the following installed on your system:
-
-* Java JDK 21
-* Maven 3.9+
-* Git
-* A Linux system(x86\_64)
-* GTK libraries required for SWT applications
-
-## Build
-
-To build the project without running unit tests, use the following command:
+To build the project without running unit tests, run the following in the project root:
 
 ```bash
 mvn clean install -Dmaven.test.skip=true -DskipTests
@@ -88,15 +76,15 @@ This command:
 * Compiles the project
 * Skips tests to speed up the process
 
-## Run
+## Run the Compiled ContractViz+
 
-After a successful build, you can run Trace Compass using the following command:
+After a successful build, you can run ContractViz+ using the following command:
 
 ```bash
 ./rcp/org.eclipse.tracecompass.rcp.product/target/products/org.eclipse.tracecompass.rcp/linux/gtk/x86_64/trace-compass/tracecompass
 ```
 
- 🔧 Once Trace Compass is launched, make sure to enable the **Trace Event Parser** plugin by going to **Tools > Add-ons** and checking **Trace Event Parser**.
+ 🔧 Once ContractViz+ is launched, make sure to enable the **Trace Event Parser** plugin by going to **Tools > Add-ons** and checking **Trace Event Parser**.
 
 ### Notes:
 
