@@ -47,10 +47,17 @@ Once the application is running:
 
 ### Opening a Trace
 
-- Open the trace file `???.json` from the `addFiles` folder.
-- Ensure that the corresponding `???_storage_report.json` file is also present, as it's required for analyzing state changes.
+- Open the following trace files from the `addFiles` folder:
+  - `trace_event_crypto_kitty.json`
+  - `trace_event_tsDao.json`
+  - `0x55a72f6c7608257afed88cd423e050368c0e3b2cba94a23c51ab811827b89f01.json`
+  
+- Ensure that the corresponding storage report file is also present for each trace:
+  - `trace_event_crypto_kitty_storage_report.json`
+  - `trace_event_tsDao_storage_report.json`
+  - `0x55a72f6c7608257afed88cd423e050368c0e3b2cba94a23c51ab811827b89f01_storage_report.json`
 
----
+These storage report files are required for analyzing state changes.
 
 ## 2. Building the Project from Source
 
